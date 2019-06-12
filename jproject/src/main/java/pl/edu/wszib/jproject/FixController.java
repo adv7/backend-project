@@ -29,7 +29,7 @@ public class FixController {
             return null;
     }
 
-    @PutMapping("")
+    @PostMapping("")
     public void add(@RequestBody Fix fix) {
         repository.saveFix(fix);
     }
